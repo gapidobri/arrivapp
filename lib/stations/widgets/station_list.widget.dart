@@ -2,7 +2,7 @@ import 'package:arriva_dart/arriva_dart.dart';
 import 'package:flutter/material.dart';
 
 class StationList extends StatefulWidget {
-  const StationList({Key? key}) : super(key: key);
+  const StationList({super.key});
 
   @override
   State<StationList> createState() => _StationListState();
